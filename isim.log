@@ -1,0 +1,69 @@
+ISim log file
+Running: C:\Users\BoAdepoju\Desktop\Coding\CECS 440\Robonaut Architecture -- Verilog\v0.61\Robonaut_Architecture\TB_isim_beh.exe -gui -tclbatch isim.cmd -wdb C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/TB_isim_beh.wdb 
+ISim M.63c (signature 0x7dea747)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 100 fs
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+HALT INSTRUCTION FETCHED 43.2ns
+ 
+Integer Datapath Registers After Operations
+------------------------------------------------
+t = 43.3ns, R_Addr[00000000] = 0123456789abcdef
+t = 43.4ns, R_Addr[00000001] = 0123456789abceed
+t = 43.5ns, R_Addr[00000002] = 0123456789abceed
+t = 43.6ns, R_Addr[00000003] = xxxxxxxxxxxxxxxx
+t = 43.7ns, R_Addr[00000004] = xxxxxxxxxxxxxxxx
+t = 43.8ns, R_Addr[00000005] = xxxxxxxxxxxxxxxx
+t = 43.9ns, R_Addr[00000006] = xxxxxxxxxxxxxxxx
+t = 44.0ns, R_Addr[00000007] = xxxxxxxxxxxxxxxx
+t = 44.1ns, R_Addr[00000008] = xxxxxxxxxxxxxxxx
+t = 44.2ns, R_Addr[00000009] = xxxxxxxxxxxxxxxx
+t = 44.3ns, R_Addr[0000000a] = xxxxxxxxxxxxxxxx
+t = 44.4ns, R_Addr[0000000b] = xxxxxxxxxxxxxxxx
+t = 44.5ns, R_Addr[0000000c] = xxxxxxxxxxxxxxxx
+t = 44.6ns, R_Addr[0000000d] = ffff111111101414
+t = 44.7ns, R_Addr[0000000e] = 00000000000000fe
+t = 44.8ns, R_Addr[0000000f] = 0000000000000000
+ 
+Memory After Operations
+------------------------------------------------
+t = 44.9ns, M[000000e0], Memory_Content = 0a0a0a0a
+t = 45.0ns, M[000000e1], Memory_Content = 88888888
+t = 45.1ns, M[000000e2], Memory_Content = 05050505
+t = 45.2ns, M[000000e3], Memory_Content = c4444444
+t = 45.3ns, M[000000e4], Memory_Content = 02828282
+t = 45.4ns, M[000000e5], Memory_Content = e2222222
+t = 45.5ns, M[000000e6], Memory_Content = 01414141
+t = 45.6ns, M[000000e7], Memory_Content = f1111111
+t = 45.7ns, M[000000e8], Memory_Content = 80a0a0a0
+t = 45.8ns, M[000000e9], Memory_Content = f8888888
+t = 45.9ns, M[000000ea], Memory_Content = 40505050
+t = 46.0ns, M[000000eb], Memory_Content = fc444444
+t = 46.1ns, M[000000ec], Memory_Content = 20282828
+t = 46.2ns, M[000000ed], Memory_Content = fe222222
+t = 46.3ns, M[000000ee], Memory_Content = 10141414
+t = 46.4ns, M[000000ef], Memory_Content = ff111111
+t = 46.5ns, M[000000f0], Memory_Content = 880a0a0a
+t = 46.6ns, M[000000f1], Memory_Content = ff888888
+t = 46.7ns, M[000000f2], Memory_Content = 44050505
+t = 46.8ns, M[000000f3], Memory_Content = ffc44444
+t = 46.9ns, M[000000f4], Memory_Content = 22028282
+t = 47.0ns, M[000000f5], Memory_Content = ffe22222
+t = 47.1ns, M[000000f6], Memory_Content = 11014141
+t = 47.2ns, M[000000f7], Memory_Content = fff11111
+t = 47.3ns, M[000000f8], Memory_Content = 8880a0a0
+t = 47.4ns, M[000000f9], Memory_Content = fff88888
+t = 47.5ns, M[000000fa], Memory_Content = 44405050
+t = 47.6ns, M[000000fb], Memory_Content = fffc4444
+t = 47.7ns, M[000000fc], Memory_Content = 22202828
+t = 47.8ns, M[000000fd], Memory_Content = fffe2222
+t = 47.9ns, M[000000fe], Memory_Content = 89abcdef
+t = 48.0ns, M[000000ff], Memory_Content = 01234567
+Stopped at time : 47951 ps : File "C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/CU64.v" Line 6947

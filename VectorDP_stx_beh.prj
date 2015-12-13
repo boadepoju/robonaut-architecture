@@ -1,0 +1,4 @@
+verilog isim_temp "VectorRegFile.v"
+verilog isim_temp "VectorALU.v"
+verilog isim_temp "VectorDP.v"
+verilog isim_temp "C:/Xilinx/12.2/ISE_DS/ISE//verilog/src/glbl.v"

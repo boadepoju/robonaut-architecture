@@ -1,0 +1,4 @@
+verilog isim_temp "regfile64.v"
+verilog isim_temp "alu.v"
+verilog isim_temp "Integer_Datapath.v"
+verilog isim_temp "C:/Xilinx/12.2/ISE_DS/ISE//verilog/src/glbl.v"

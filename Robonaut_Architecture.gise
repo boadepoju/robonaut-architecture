@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Robonaut_Architecture.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CPU_EU.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="CPU_EU.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="CPU_EU.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="CPU_EU.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CPU_EU_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CU64.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="CU64.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="CU64.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CU64_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CU_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CU_TB_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="FloatDP_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="IO_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Integer_Datapath.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Integer_Datapath.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Integer_Datapath.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Integer_Datapath_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Integer_Datapath_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TB_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="VectorALU_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="VectorDP_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="VectorRegFile_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="alu_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="memory_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="regfile64_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="topmodule_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1319534395" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1319534395">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1321845639" xil_pn:in_ck="-5012130519669612032" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1321845639">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CPU_EU.v"/>
+      <outfile xil_pn:name="CU64.v"/>
+      <outfile xil_pn:name="CU_TB.v"/>
+      <outfile xil_pn:name="FPRegFile.v"/>
+      <outfile xil_pn:name="FloatALU.v"/>
+      <outfile xil_pn:name="FloatDP.v"/>
+      <outfile xil_pn:name="IO.v"/>
+      <outfile xil_pn:name="Integer_Datapath.v"/>
+      <outfile xil_pn:name="Lab6Top.v"/>
+      <outfile xil_pn:name="VectorALU.v"/>
+      <outfile xil_pn:name="VectorALU16.v"/>
+      <outfile xil_pn:name="VectorALU32.v"/>
+      <outfile xil_pn:name="VectorALU4.v"/>
+      <outfile xil_pn:name="VectorALU64.v"/>
+      <outfile xil_pn:name="VectorDP.v"/>
+      <outfile xil_pn:name="VectorMANDA16.v"/>
+      <outfile xil_pn:name="VectorMANDA4.v"/>
+      <outfile xil_pn:name="VectorMANDA8.v"/>
+      <outfile xil_pn:name="VectorRegFile.v"/>
+      <outfile xil_pn:name="alu.v"/>
+      <outfile xil_pn:name="biu.v"/>
+      <outfile xil_pn:name="memory.v"/>
+      <outfile xil_pn:name="regfile64.v"/>
+      <outfile xil_pn:name="topmodule.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1321793005" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8707254737170252922" xil_pn:start_ts="1321793005">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1321793005" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3159494631969184120" xil_pn:start_ts="1321793005">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1321756980" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:start_ts="1321756980">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1321845639" xil_pn:in_ck="-5012130519669612032" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1321845639">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CPU_EU.v"/>
+      <outfile xil_pn:name="CU64.v"/>
+      <outfile xil_pn:name="CU_TB.v"/>
+      <outfile xil_pn:name="FPRegFile.v"/>
+      <outfile xil_pn:name="FloatALU.v"/>
+      <outfile xil_pn:name="FloatDP.v"/>
+      <outfile xil_pn:name="IO.v"/>
+      <outfile xil_pn:name="Integer_Datapath.v"/>
+      <outfile xil_pn:name="Lab6Top.v"/>
+      <outfile xil_pn:name="VectorALU.v"/>
+      <outfile xil_pn:name="VectorALU16.v"/>
+      <outfile xil_pn:name="VectorALU32.v"/>
+      <outfile xil_pn:name="VectorALU4.v"/>
+      <outfile xil_pn:name="VectorALU64.v"/>
+      <outfile xil_pn:name="VectorDP.v"/>
+      <outfile xil_pn:name="VectorMANDA16.v"/>
+      <outfile xil_pn:name="VectorMANDA4.v"/>
+      <outfile xil_pn:name="VectorMANDA8.v"/>
+      <outfile xil_pn:name="VectorRegFile.v"/>
+      <outfile xil_pn:name="alu.v"/>
+      <outfile xil_pn:name="biu.v"/>
+      <outfile xil_pn:name="memory.v"/>
+      <outfile xil_pn:name="regfile64.v"/>
+      <outfile xil_pn:name="topmodule.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1321845647" xil_pn:in_ck="-5012130519669612032" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6301044690860696820" xil_pn:start_ts="1321845639">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <outfile xil_pn:name="TB_beh.prj"/>
+      <outfile xil_pn:name="TB_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1321845647" xil_pn:in_ck="-1466805714013518821" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3474448660845472695" xil_pn:start_ts="1321845647">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="TB_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+  </transforms>
+
+</generated_project>

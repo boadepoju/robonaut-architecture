@@ -1,0 +1,52 @@
+@0
+00_00_00_0F   //          LDIV   VR15, 00000000_35245689h
+35_24_56_89
+00_00_00_00
+00_00_00_0E   //          LDIV   VR14, 00000000_00020006h
+00_02_00_06
+00_00_00_00
+00_00_00_0D   // 	  LDIV   VR13, 00000000_FFFFFF1Fh
+FF_FF_FF_1F
+00_00_00_00
+00_00_00_0C   //          LDIV   VR12, 00000000_000000070h
+00_00_00_70
+00_00_00_00
+87_00_00_0D   //          LDI    R13, 00000000_00000005h
+00_00_00_05
+00_00_00_00
+87_00_00_0A   //          LDI	 R10, 00000000_00000E0
+00_00_00_E0
+00_00_00_00
+00_00_00_0B   //          LDIV   VR11, 00000A32_000015A3
+00_00_15_A3
+00_00_0A_32
+00_00_00_0A   //          LDIV   VR10, 00001189_0000B202  
+00_00_B2_02
+00_00_11_89
+94_0D_00_0D   //          INC    		R13		      // VMODE =
+01_0F_0E_21   //          PADD   		R1, R15, R14          // Mode 1 (001) 8-bit
+06_0C_0D_22   //          PADDS  		R2, R12, R13          // Mode 1 (001) 8-bit                       // COMMENTS: Result, R2 = 00000000_ffffff7f demonstrates signed saturation 
+08_0F_0E_E3   //	  PMULANDADD 		R3, R14, R15          // Mode 7 (111) 16to32 bit mul and add	 // COMMENTS: 16 bit mul and add. 5689 * 6 = 20736. 3524 * 2 = 6A48. 6a48 + 20736 = 2717E
+06_0C_0D_46   //          PADDS 		R6, R12, R13          // Mode 2 (010) 16-bit			 // COMMENTS: Signed Addition in 16-bit mode, 0000000_ffffff8f is correct answer
+08_0B_0A_C4   //          PMULANDADD 		R4, VR10, VR11        // Mode 6 (110) 8to16 bit mul and add
+07_0C_0D_07   //          PSUBS  		R7, R12, R13          // Mode 0 (000) 4-bit
+02_0C_0D_68   //          PSUB  		R8, R12, R13          // Mode 3 (011) 32-bit			 // COMMENTS: Result is R8 = 00000000_00000151, which is correct for a 32-bit subtract
+06_0C_0D_89   //          PADDS 		R9, R12, R13          // Mode 4 (100) 64-bit
+03_0A_0B_20   //          PAND                  R0, R10, R11          // Mode 1 (001) 8-bit		         // COMMENTS: Result is R0 = 00000000_00001002, which is correct when R10 and R11 are anded together		
+0A_02_00_2A   //	  PSTO R2, M[R10]									 // COMMENTS: R2 is stored in the location pointed at by Integer R10
+
+C5_00_00_00   //          HALT
+
+@FE	
+89_AB_CD_EF
+01_23_45_67
+
+
+@10F
+95_0D_00_0D
+94_0D_00_0D
+B5_00_00_00
+
+@3FE
+00_00_00_10F
+00_00_00_00

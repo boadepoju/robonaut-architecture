@@ -1,0 +1,29 @@
+Command line:
+   FloatDP_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52438
+
+Sun Nov 20 04:43:18 2011
+
+
+ Elaboration Time: 0.0312 sec
+
+ Current Memory Usage: 504.254 Meg
+
+ Total Signals          : 34
+ Total Nets             : 423
+ Total Signal Drivers   : 11
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 18
+ Total Traceable Variables  : 28
+ Total Scalar Nets and Variables : 2880
+Total Line Count : 52
+
+ Total Simulation Time: 0.0468 sec
+
+ Current Memory Usage: 504.254 Meg
+
+Sun Nov 20 04:43:22 2011
+

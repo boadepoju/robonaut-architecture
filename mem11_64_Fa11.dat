@@ -1,0 +1,61 @@
+@0
+87_00_00_00  //00  LDI  R0,  13h        ;R0 <-- 13h
+00_00_00_13  //01
+00_00_00_00  //02
+D1_00_05_01  //03  SUBi R1,  R0,  05h   ;R1 <-- 0Eh   for 13h^^(Eh)
+8A_00_00_02  //04  COPY R2,  R0         ;R2 <-- 13h
+87_00_00_0F  //05  LDI  R15, E0h        ;intermiediate results buffer
+00_00_00_E0  //06
+00_00_00_00  //07
+D0_01_12_0E  //08  ADDi  R14,  R1,  12h ; R14 <-- 20h
+B3_0E_00_00  //09  CALL [R14]
+89_03_00_0F  //0A  STO  [R15], R3
+C5_00_00_00  //0B  HALT
+																		
+@20
+DB_01_00_00  //20  CMPi  R1, 0
+A3_00_00_01  //21  JNE   @23
+B4_00_00_00  //22  RET
+
+82_02_00_02  //23  MUL    R2,  R2,  R0
+95_01_00_01  //24  DEC    R1
+89_02_00_0F  //25  STO  [R15], R2
+D0_0F_02_0F  //26  ADDi  R15, R15,  2
+B3_0E_00_00  //27  CALL [R14]
+B0_FF_FF_F7  //28  JMP   @20
+
+@E0
+FF_FF_FF_FF
+FF_FF_FF_FF
+FF_FF_FF_FE
+FF_FF_FF_FF
+FF_FF_FF_FD
+FF_FF_FF_FF
+FF_FF_FF_FC
+FF_FF_FF_FF
+FF_FF_FF_FB
+FF_FF_FF_FF
+FF_FF_FF_FA
+FF_FF_FF_FF
+FF_FF_FF_F9
+FF_FF_FF_FF
+FF_FF_FF_F8
+FF_FF_FF_FF
+FF_FF_FF_F7
+FF_FF_FF_FF
+FF_FF_FF_F6
+FF_FF_FF_FF
+FF_FF_FF_F5
+FF_FF_FF_FF
+FF_FF_FF_F4
+FF_FF_FF_FF
+FF_FF_FF_F3
+FF_FF_FF_FF
+FF_FF_FF_F2
+FF_FF_FF_FF
+FF_FF_FF_F1
+FF_FF_FF_FF
+FF_FF_FF_F0
+FF_FF_FF_FF
+
+

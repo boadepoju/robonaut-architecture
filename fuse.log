@@ -1,0 +1,64 @@
+Running: C:\Xilinx\12.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/TB_isim_beh.exe -prj C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/TB_beh.prj work.TB work.glbl 
+ISim M.63c (signature 0x7dea747)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/VectorRegFile.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/VectorMANDA8.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/VectorMANDA4.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/VectorMANDA16.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/VectorALU64.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/VectorALU4.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/VectorALU32.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/VectorALU16.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/VectorALU.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/regfile64.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/FPRegFile.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/FloatALU.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/alu.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/VectorDP.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/Integer_Datapath.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/FloatDP.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/biu.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/memory.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/IO.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/CPU_EU.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/topmodule.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/CU64.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/Lab6Top.v\" into library work
+Analyzing Verilog file \"C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/CU_TB.v\" into library work
+Analyzing Verilog file \"C:/Xilinx/12.2/ISE_DS/ISE//verilog/src/glbl.v\" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/CU_TB.v" Line 22: Port Flag_N_Sel is not connected to this instance
+Completed static elaboration
+Compiling module CU64
+Compiling module FPRegFile
+Compiling module FloatALU
+Compiling module FloatDP
+Compiling module regfile64
+Compiling module alu
+Compiling module Integer_Datapath
+Compiling module VectorRegFile
+Compiling module VectorALU
+Compiling module VectorALU16
+Compiling module VectorALU32
+Compiling module VectorALU64
+Compiling module VectorALU4
+Compiling module VectorMANDA4
+Compiling module VectorMANDA8
+Compiling module VectorMANDA16
+Compiling module VectorDP
+Compiling module biu
+Compiling module CPU_EU
+Compiling module memory
+Compiling module IO
+Compiling module Core_Architecture
+Compiling module Robonaut_Architecture
+Compiling module TB
+Compiling module glbl
+Time Resolution for simulation is 100fs.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 25 Verilog Units
+Built simulation executable C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.61/Robonaut_Architecture/TB_isim_beh.exe
+Fuse Memory Usage: 31608 KB
+Fuse CPU Usage: 889 ms

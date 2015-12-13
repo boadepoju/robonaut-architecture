@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.03/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/v0.03/xst"
+elaborate
+-ifn Integer_Datapath.prj
+-ifmt mixed

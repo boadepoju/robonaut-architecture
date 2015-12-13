@@ -1,0 +1,3 @@
+verilog work "regfile64.v"
+verilog work "alu.v"
+verilog work "Integer_Datapath.v"

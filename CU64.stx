@@ -1,0 +1,32 @@
+Release 12.2 - xst M.63c (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Bruno/Desktop/Lab6_CU_Bruno_Vers4/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Bruno/Desktop/Lab6_CU_Bruno_Vers4/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "CU64.v" in library work
+ERROR:HDLCompilers:208 - "CU64.v" line 24 Port reference 'mem_data_bus' was not declared as input, inout or output
+ERROR:HDLCompilers:208 - "CU64.v" line 24 Port reference 'mem_addr_bus' was not declared as input, inout or output
+Module <CU64> compiled
+Analysis of file <"CU64.prj"> failed.
+--> 
+
+Total memory usage is 203248 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

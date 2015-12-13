@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Bruno/Desktop/Lab6_CU_Bruno_Vers4/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Bruno/Desktop/Lab6_CU_Bruno_Vers4/xst"
+elaborate
+-ifn CU64.prj
+-ifmt mixed

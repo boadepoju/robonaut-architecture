@@ -1,0 +1,8 @@
+MO biu NULL biu.v vlg14/biu.bin 1319998341
+MO FloatDP NULL FloatDP.v vlg26/_float_d_p.bin 1319998341
+MO FloatALU NULL FloatALU.v vlg34/_float_a_l_u.bin 1319998341
+MO CPU_EU NULL CPU_EU.v vlg25/_c_p_u___e_u.bin 1319998341
+MO FPRegFile NULL FPRegFile.v vlg48/_f_p_reg_file.bin 1319998341
+MO Integer_Datapath NULL Integer_Datapath.v vlg74/_integer___datapath.bin 1319999388
+MO regfile64 NULL regfile64.v vlg64/regfile64.bin 1319999388
+MO alu NULL alu.v vlg0A/alu.bin 1319999388

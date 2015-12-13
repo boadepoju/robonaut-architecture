@@ -1,0 +1,94 @@
+@0
+87_00_00_0F   //  LDI R15, 7FFFFFFF_FFFFFFFF
+FF_FF_FF_FF
+7F_FF_FF_FF
+87_00_00_0E   //  LDI R14, 80000000_00000000
+00_00_00_00	
+80_00_00_00
+81_0E_0E_0D   //  SUB R13, R14, R14              {R13 <- 00000000_00000000, V <- 0}
+A7_00_00_01   //  JNV +1
+C5_00_00_00   //  HALT              {no halt}
+81_0E_0F_0C   //  SUB R12, R14, R15              {R12 <- 00000000_00000001, V <- 1}
+A6_00_00_01   //  JV  +1
+C5_00_00_00   //  HALT              {no halt}
+A8_00_00_01   //  JLT +1
+C5_00_00_00   //  HALT              {no halt}
+AB_00_00_01   //  JLE +1
+C5_00_00_00   //  HALT              {no halt}
+81_0F_0E_0B   //  SUB R11, R15, R14              {R11 <- FFFFFFFF_FFFFFFFF}
+A9_00_00_01   //  JGE +1
+C5_00_00_00   //  HALT              {no halt}
+AA_00_00_01   //  JGT +1
+C5_00_00_00   //  HALT              {no halt}
+81_0E_0F_0A   //  SUB R10, R14, R15              {R10 <- 00000000_00000001}
+AD_00_00_01   //  JAE +1
+C5_00_00_00   //  HALT              {no halt}
+AE_00_00_01   //  JA  +1
+C5_00_00_00   //  HALT              {no halt}
+81_0F_0E_09   //  SUB R09, R15, R14              {R09 <- FFFFFFFF_FFFFFFFF}
+AC_00_00_01   //  JB  +1
+C5_00_00_00   //  HALT              {no halt}
+AF_00_00_01   //  JBE +1
+C5_00_00_00   //  HALT              {no halt}
+94_0E_00_08   //  INC   R08, R14                 {R08 <- 80000000_00000001, V <- 0}
+A7_00_00_01   //  JNV +1
+C5_00_00_00   //  HALT              {no halt}
+94_0F_00_07   //  INC   R07, R15                 {R07 <- 80000000_00000000, V <- 1}
+A6_00_00_01   //  JV  +1
+C5_00_00_00   //  HALT              {no halt}
+95_0E_00_06   //  DEC   R06, R14                 {R06 <- 7FFFFFFF_FFFFFFFF, V <- 1}
+A6_00_00_01   //  JV  +1
+C5_00_00_00   //  HALT              {no halt}
+95_0F_00_05   //  DEC   R05, R15                 {R05 <- 7FFFFFFF_FFFFFFFE, V <- 0}
+A7_00_00_01   //  JNV +1
+C5_00_00_00   //  HALT              {no halt}
+9B_0E_00_04   //  ASL   R04, R14                 {R04 <- 80000000_00000000, V <- 1}
+A6_00_00_01   //  JV  +1
+C5_00_00_00   //  HALT              {no halt}
+9B_0F_00_03   //  ASL   R03, R15                 {R03 <- 7FFFFFFF_FFFFFFFE, V <- 1}
+A6_00_00_01   //  JV  +1
+C5_00_00_00   //  HALT              {no halt}
+9B_0B_00_02   //  ASL   R02, R11                 {R02 <- FFFFFFFF_FFFFFFFE, V <- 0}
+A7_00_00_01   //  JNV +1
+C5_00_00_00   //  HALT              {no halt}
+9B_0A_00_01   //  ASL   R01, R10                 {R01 <- 00000000_00000002, V <- 0}
+A7_00_00_01   //  JNV +1
+C5_00_00_00   //  HALT              {no halt}
+90_0F_00_00   //  PUSH  R15
+91_00_00_00   //  POP   R0                       {R00 <- 7FFFFFFF_FFFFFFFF}                    
+C5_00_00_00   //  HALT              {Halt here!}
+
+@E0
+FF_FF_FF_FF
+FF_FF_FF_FF
+00_00_00_01
+00_00_00_00
+FF_FF_FF_FE
+FF_FF_FF_FF
+00_00_00_02
+00_00_00_00
+FF_FF_FF_FD
+FF_FF_FF_FF
+00_00_00_03
+00_00_00_00
+FF_FF_FF_FC
+FF_FF_FF_FF
+00_00_00_04
+00_00_00_00
+
+FF_FF_FF_FB
+FF_FF_FF_FF
+00_00_00_05
+00_00_00_00
+FF_FF_FF_FA
+FF_FF_FF_FF
+00_00_00_06
+00_00_00_00
+FF_FF_FF_F9
+FF_FF_FF_FF
+00_00_00_07
+00_00_00_00
+FF_FF_FF_F8
+FF_FF_FF_FF
+00_00_00_08
+00_00_00_00

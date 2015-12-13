@@ -1,0 +1,8 @@
+verilog work "regfile64.v"
+verilog work "FPRegFile.v"
+verilog work "FloatALU.v"
+verilog work "alu.v"
+verilog work "Integer_Datapath.v"
+verilog work "FloatDP.v"
+verilog work "biu.v"
+verilog work "CPU_EU.v"

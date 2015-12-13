@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/CPU_EU.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/CU64.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/FPRegFile.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/FloatALU.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/FloatDP.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/IO.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/Integer_Datapath.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/Lab6Top.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/VectorALU.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/VectorALU16.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/VectorALU32.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/VectorALU4.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/VectorALU64.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/VectorDP.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/VectorMANDA16.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/VectorMANDA4.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/VectorMANDA8.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/VectorRegFile.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/alu.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/biu.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/memory.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/regfile64.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1574" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/BoAdepoju/Desktop/Coding/CECS 440/Robonaut Architecture -- Verilog/Robonaut_Architecture/Robonaut_Architecture/topmodule.v\&quot; into library work</arg>
+</msg>
+
+</messages>
+
